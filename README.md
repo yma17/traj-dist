@@ -28,7 +28,7 @@ It is implemented in Cython.
 
 ## Dependencies
 
-**trajectory_distance** is tested to work under Python 3.6 and the following dependencies:
+**trajectory_distance** is tested to work under Python 3.8 and the following dependencies:
  
 * NumPy >= 1.16.2
 * Cython >= 0.29.6
@@ -52,7 +52,10 @@ to build Cython files. Then run:
 ```
 pip install .
 ```
-to install the package into your environment.
+to install the package into your environment. Then run:
+```
+python setup.py build_ext --inplace
+```
 
 ## How to use it
 
